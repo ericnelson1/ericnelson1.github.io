@@ -5,19 +5,11 @@ angular.module('app', [])
 
     var vm = this;
 
-    $http.get('graphics.json')
+    $http.get('experiments.json')
       .then(function (data) {
         vm.items = data;
-        checkColumns();
+        calculateColumns(2);
       });
-
-    function checkColumns() {
-      if (vm.items) {
-          calculateColumns(2);
-      }
-    }
-
-    //screenSize.when('xs,sm,md,lg', checkColumns);
 
     function calculateColumns(cols) {
       vm.columnCount = cols;
