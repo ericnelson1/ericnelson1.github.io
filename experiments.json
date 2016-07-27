@@ -5,116 +5,116 @@
   },
   {
     "name": "Country Population Bubble Chart",
-    "link": "countrypopulation/countrypopulation.html",
+    "link": "graphics/countrypopulation/countrypopulation.html",
     "data": [
       {
         "name": "Raw Data",
-        "link": "countrypopulation/cow.txt"
+        "link": "graphics/countrypopulation/cow.txt"
       },
       {
         "name": "Json",
-        "link": "countrypopulation/cow.json"
+        "link": "graphics/countrypopulation/cow.json"
       }
     ]
   },
   {
     "name": "Country Land Bubble Chart",
-    "link": "countryland/countryland.html",
+    "link": "graphics/countryland/countryland.html",
     "data": [
       {
         "name": "Json",
-        "link": "countryland/land.json"
+        "link": "graphics/countryland/land.json"
       }
     ]
   },
   {
     "name": "State Population Bar Chart",
-    "link": "statepopulation/statepopulationbar.html",
+    "link": "graphics/statepopulation/statepopulationbar.html",
     "data": [
       {
         "name": "Json",
-        "link": "statepopulation/state-population.json"
+        "link": "graphics/statepopulation/state-population.json"
       }
     ]
   },
   {
     "name": "State Population Bubble Graph",
-    "link": "statepopulation/statepopulationbubble.html",
+    "link": "graphics/statepopulation/statepopulationbubble.html",
     "data": [
       {
         "name": "Json",
-        "link": "statepopulation/state-population.json"
+        "link": "graphics/statepopulation/state-population.json"
       }
     ]
   },
   {
     "name": "Tree Patterns",
-    "link": "treepatterns/tree.html"
+    "link": "graphics/treepatterns/tree.html"
   },
   {
     "name": "Knockout Circles",
-    "link": "html/circles.html"
+    "link": "graphics/html/circles.html"
   },
   {
     "name": "Bezier Curve",
-    "link": "html/bezier.html"
+    "link": "graphics/html/bezier.html"
   },
   {
     "name": "Force Graph",
-    "link": "forcegraph/force.html",
+    "link": "graphics/forcegraph/force.html",
     "data": [
       {
         "name": "Data",
-        "link": "forcegraph/miserables.json"
+        "link": "graphics/forcegraph/miserables.json"
       }
     ]
   },
   {
     "name": "Tree Map",
-    "link": "treemap/treemap.html",
+    "link": "graphics/treemap/treemap.html",
     "data": [
       {
         "name": "Data",
-        "link": "treemap/flare.json"
+        "link": "graphics/treemap/flare.json"
       }
     ]
   },
   {
     "name": "Area Chart",
-    "link": "areachart/areachart.html",
+    "link": "graphics/areachart/areachart.html",
     "data": [
       {
         "name": "Data",
-        "link": "areachart/data.tsv"
+        "link": "graphics/areachart/data.tsv"
       }
     ]
   },
   {
     "name": "Scatter Plot",
-    "link": "scatterplot/scatter.html",
+    "link": "graphics/scatterplot/scatter.html",
     "data": [
       {
         "name": "Data",
-        "link": "scatterplot/data.tsv"
+        "link": "graphics/scatterplot/data.tsv"
       }
     ]
   },
   {
     "name": "Pie Chart",
-    "link": "pie/donut.html"
+    "link": "graphics/pie/donut.html"
   },
   {
     "name": "Bar Chart",
-    "link": "barchart/bar.html",
+    "link": "graphics/barchart/bar.html",
     "data": [
       {
         "name": "Data",
-        "link": "barchart/data.tsv"
+        "link": "graphics/barchart/data.tsv"
       }
     ]
   },
   {
     "name": "SVG Shapes",
-    "link": "svg/basic.html"
+    "link": "graphics/svg/basic.html"
   }
 ]
