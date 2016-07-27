@@ -1,7 +1,7 @@
 
 angular.module('app', [])
-  .controller('MainController', ['$http', '$window', 'screenSize',
-    function ($http, $window, screenSize) {
+  .controller('MainController', ['$http', '$window', 
+    function ($http, $window) {
 
     var vm = this;
 
@@ -13,9 +13,6 @@ angular.module('app', [])
 
     function checkColumns() {
       if (vm.items) {
-        if (screenSize.is('xs,sm') && vm.columnCount != 1)
-          calculateColumns(1);
-        else if (screenSize.is('md,lg') && vm.columnCount != 2)
           calculateColumns(2);
       }
     }
