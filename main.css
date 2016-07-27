@@ -3,10 +3,10 @@
   color: white;
 }
 
-.unstyled-link a:active, 
-.unstyled-link a:hover, 
-.unstyled-link a:focus, 
-.unstyled-link a:visited {
+a:active.unstyled-link, 
+a:hover.unstyled-link, 
+a:focus.unstyled-link, 
+a:visited.unstyled-link {
   text-decoration: none; 
   color: #6f5499; 
 }
