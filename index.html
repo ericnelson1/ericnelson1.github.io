@@ -1,30 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
-  <meta charset="UTF-8">
-  <title>Home</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>Eric Nelson</title>
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="app.css">
+
 </head>
-<body>
+<body ng-controller="MainController as main">
+  <!--[if lt IE 10]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
   <div class="jumbotron">
     <div class="container-fluid">
-      <h2 class="text-center">Experiments</h2>
+      <h1>Eric Nelson</h1>
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid ng-cloak" ng-cloak>
     <div class="row">
-      <div class="col-xs-12">
-        <h2 class="text-center"><a class="unstyled-link" href="graphics">Graphics</a></h2>
+      <div ng-repeat="column in main.columns">
+        <div class="col-md-6">
+          <div ng-repeat="item in main.items.data | slice:column.start:column.end">
+            <h4>
+              <a target="_blank" ng-href="{{item.link}}">{{item.name}}&nbsp;</a>
+              <a target="_blank" ng-repeat="data in item.data" ng-href="{{data.link}}">({{data.name}})&nbsp;</a>
+            </h4>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+  <script src="app.js"></script>
+
 </body>
 </html>
-
-
-
-
-
-
-
