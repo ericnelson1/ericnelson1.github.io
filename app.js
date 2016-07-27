@@ -1,5 +1,5 @@
 
-angular.module('app', ['matchMedia'])
+angular.module('app', [])
   .controller('MainController', ['$http', '$window', 'screenSize',
     function ($http, $window, screenSize) {
 
@@ -20,7 +20,7 @@ angular.module('app', ['matchMedia'])
       }
     }
 
-    screenSize.when('xs,sm,md,lg', checkColumns);
+    //screenSize.when('xs,sm,md,lg', checkColumns);
 
     function calculateColumns(cols) {
       vm.columnCount = cols;
