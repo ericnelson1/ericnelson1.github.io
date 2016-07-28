@@ -38,7 +38,7 @@
     ]
   },
   {
-    "name": "State Population Bubble Graph",
+    "name": "State Population Bubble Chart",
     "link": "graphics/statepopulation/statepopulationbubble.html",
     "data": [
       {
@@ -116,5 +116,10 @@
   {
     "name": "SVG Shapes",
     "link": "graphics/svg/basic.html"
+  },
+  {
+    "name": "Actors",
+    "link": "graphics/actors/actors.html"
   }
+
 ]
