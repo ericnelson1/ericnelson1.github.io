@@ -8,9 +8,23 @@
 a:link,
 a:active, 
 a:visited,
-a:hover
-{ color: #337ab7; text-decoration: none; }
+a:hover { 
+  color: #337ab7; 
+  text-decoration: none; 
+}
 
-.ng-cloak { display: none !important; } 
+.ng-cloak { 
+  display: none !important; 
+} 
+
+.en-item {
+  border: solid 1px #e7e7e7;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.en-item img {
+  margin-right: 10px;
+}
 
 

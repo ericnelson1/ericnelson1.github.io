@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
 <head>
-  <title>Experiments</title>
+  <title>Eric Nelson</title>
 
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
@@ -14,7 +14,7 @@
   <![endif]-->
   <div class="jumbotron">
     <div class="container-fluid">
-      <h2>Experiments</h2>
+      <h2>Eric Nelson</h2>
     </div>
   </div>
   <div class="container-fluid ng-cloak" ng-cloak>
@@ -22,9 +22,14 @@
       <div ng-repeat="column in main.columns">
         <div class="col-md-6">
           <div ng-repeat="item in main.items.data | slice:column.start:column.end">
-            <h4>
-              <a target="_blank" ng-href="{{item.link}}">{{item.name}}&nbsp;</a>
-              <a target="_blank" ng-repeat="data in item.data" ng-href="{{data.link}}">({{data.name}})&nbsp;</a>
+            <div class="en-item clearfix">
+              <a target="_blank" ng-href="{{item.link}}">
+                <img class="pull-left" ng-src="{{item.image}}" alt="" height="80" width="80">
+                <div> 
+                  <h4>{{item.name}}</h4>
+                  <p>{{item.desc}}</p>
+                </div>
+              </a>
             </h4>
           </div>
         </div>

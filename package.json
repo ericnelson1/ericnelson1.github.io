@@ -1,0 +1,23 @@
+{
+  "name": "ericnelson1.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericnelson1/ericnelson1.github.io.git"
+  },
+  "author": "Eric Nelson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericnelson1/ericnelson1.github.io/issues"
+  },
+  "homepage": "https://github.com/ericnelson1/ericnelson1.github.io#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

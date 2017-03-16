@@ -1,11 +1,15 @@
 ﻿[
   {
     "name": "Text Generator",
-    "link": "http://text-generator-dev.us-west-2.elasticbeanstalk.com"
+    "desc": "This program generates text for all to see", 
+    "link": "http://text-generator-dev.us-west-2.elasticbeanstalk.com",
+    "image": "images/countrypopulation.png"
   },
   {
     "name": "Country Population Bubble Chart",
+    "desc": "This chart shows all the world some circles", 
     "link": "graphics/countrypopulation/countrypopulation.html",
+    "image": "images/countrypopulation.png",
     "data": [
       {
         "name": "Raw Data",
@@ -29,7 +33,9 @@
   },
   {
     "name": "State Population Bar Chart",
+    "desc": "This chart shows all the world some squares", 
     "link": "graphics/statepopulation/statepopulationbar.html",
+    "image": "images/statepopulation.png",
     "data": [
       {
         "name": "Json",
@@ -49,11 +55,15 @@
   },
   {
     "name": "Tree Patterns",
-    "link": "graphics/treepatterns/tree.html"
+    "desc": "Rule based tree patterns",
+    "link": "graphics/treepatterns/tree.html",
+    "image": "images/treepatterns.png"
   },
   {
     "name": "Knockout Circles",
-    "link": "graphics/html/circles.html"
+    "desc": "Cheesy floating circles in old school knockout",
+    "link": "graphics/html/circles.html",
+    "image": "images/circles.png"
   },
   {
     "name": "Bezier Curve",
@@ -115,7 +125,9 @@
   },
   {
     "name": "SVG Shapes",
-    "link": "graphics/svg/basic.html"
+    "desc": "Basic SVG shapes",
+    "link": "graphics/svg/basic.html",
+    "image": "images/svgshapes.png"
   },
   {
     "name": "Actors",
