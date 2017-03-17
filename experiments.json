@@ -12,6 +12,12 @@
     "image": "images/treepatterns.png"
   },
   {
+    "name": "Node Chat",
+    "desc": "Node JS chat app using socket IO",
+    "link": "",
+    "image": "images/chat.png"
+  },
+  {
     "name": "Country Population Bubble Chart",
     "desc": "This chart shows countries by population size", 
     "link": "graphics/countrypopulation/countrypopulation.html",
