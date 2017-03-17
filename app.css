@@ -18,13 +18,20 @@ a:hover {
 } 
 
 .en-item {
-  border: solid 1px #e7e7e7;
+  border: solid 1px #d7e6f4;
   margin: 5px 0;
+}
+
+.en-item clearfix {
   padding: 5px;
 }
 
 .en-item img {
   margin-right: 10px;
+}
+
+.en-item :hover {
+	background-color:#d7e6f4; 
 }
 
 

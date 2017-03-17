@@ -22,16 +22,16 @@
     <div class="row">
       <div ng-repeat="column in main.columns">
         <div class="col-md-6">
-          <div ng-repeat="item in main.items.data | slice:column.start:column.end">
-            <div class="en-item clearfix">
-              <a target="_blank" ng-href="{{item.link}}">
+          <div class="en-item" ng-repeat="item in main.items.data | slice:column.start:column.end">
+            <a target="_blank" ng-href="{{item.link}}">
+              <div class="clearfix">
                 <img class="pull-left" ng-src="{{item.image}}" alt="" height="80" width="80">
                 <div> 
                   <h4>{{item.name}}</h4>
                   <p>{{item.desc}}</p>
                 </div>
-              </a>
-            </h4>
+              </div>
+            </a>
           </div>
         </div>
       </div>

@@ -1,63 +1,39 @@
 ﻿[
   {
     "name": "Text Generator",
-    "desc": "This program generates text for all to see", 
+    "desc": "This program generates text based on statistics", 
     "link": "http://text-generator-dev.us-west-2.elasticbeanstalk.com",
-    "image": "images/countrypopulation.png"
-  },
-  {
-    "name": "Country Population Bubble Chart",
-    "desc": "This chart shows all the world some circles", 
-    "link": "graphics/countrypopulation/countrypopulation.html",
-    "image": "images/countrypopulation.png",
-    "data": [
-      {
-        "name": "Raw Data",
-        "link": "graphics/countrypopulation/cow.txt"
-      },
-      {
-        "name": "Json",
-        "link": "graphics/countrypopulation/cow.json"
-      }
-    ]
-  },
-  {
-    "name": "Country Land Bubble Chart",
-    "link": "graphics/countryland/countryland.html",
-    "data": [
-      {
-        "name": "Json",
-        "link": "graphics/countryland/land.json"
-      }
-    ]
-  },
-  {
-    "name": "State Population Bar Chart",
-    "desc": "This chart shows all the world some squares", 
-    "link": "graphics/statepopulation/statepopulationbar.html",
-    "image": "images/statepopulation.png",
-    "data": [
-      {
-        "name": "Json",
-        "link": "graphics/statepopulation/state-population.json"
-      }
-    ]
-  },
-  {
-    "name": "State Population Bubble Chart",
-    "link": "graphics/statepopulation/statepopulationbubble.html",
-    "data": [
-      {
-        "name": "Json",
-        "link": "graphics/statepopulation/state-population.json"
-      }
-    ]
+    "image": "images/text.jpg"
   },
   {
     "name": "Tree Patterns",
     "desc": "Rule based tree patterns",
     "link": "graphics/treepatterns/tree.html",
     "image": "images/treepatterns.png"
+  },
+  {
+    "name": "Country Population Bubble Chart",
+    "desc": "This chart shows countries by population size", 
+    "link": "graphics/countrypopulation/countrypopulation.html",
+    "image": "images/countrypopulation.png"
+  },
+  {
+    "name": "Country Land Bubble Chart",
+    "desc": "This chart shows countries by land size", 
+    "link": "graphics/countryland/countryland.html",
+    "image": "images/countryland.png"
+  },
+  {
+    "name": "State Population Bar Chart",
+    "desc": "This shows state population in a bar chart", 
+    "link": "graphics/statepopulation/statepopulationbar.html",
+    "image": "images/statepopulationbar.png"
+  },
+  {
+    "name": "State Population Bubble Chart",
+    "desc": "This shows state population in a bubble chart", 
+    "link": "graphics/statepopulation/statepopulationbubble.html",
+    "image": "images/statepopulationbubble.png"
   },
   {
     "name": "Knockout Circles",
@@ -67,61 +43,45 @@
   },
   {
     "name": "Bezier Curve",
-    "link": "graphics/html/bezier.html"
+    "desc": "Another cheesy knockout experiment",
+    "link": "graphics/html/bezier.html",
+    "image": "images/bezier.png"
   },
   {
     "name": "Force Graph",
+    "desc": "A force graph",
     "link": "graphics/forcegraph/force.html",
-    "data": [
-      {
-        "name": "Data",
-        "link": "graphics/forcegraph/miserables.json"
-      }
-    ]
+    "image": "images/force.png"
   },
   {
     "name": "Tree Map",
+    "desc": "A tree map",
     "link": "graphics/treemap/treemap.html",
-    "data": [
-      {
-        "name": "Data",
-        "link": "graphics/treemap/flare.json"
-      }
-    ]
+    "image": "images/treemap.png"
   },
   {
     "name": "Area Chart",
+    "desc": "An area chart",
     "link": "graphics/areachart/areachart.html",
-    "data": [
-      {
-        "name": "Data",
-        "link": "graphics/areachart/data.tsv"
-      }
-    ]
+    "image": "images/areachart.png"
   },
   {
     "name": "Scatter Plot",
+    "desc": "A scatter plot",
     "link": "graphics/scatterplot/scatter.html",
-    "data": [
-      {
-        "name": "Data",
-        "link": "graphics/scatterplot/data.tsv"
-      }
-    ]
+    "image": "images/scatter.png"
   },
   {
     "name": "Pie Chart",
-    "link": "graphics/pie/donut.html"
+    "desc": "A pie chart or two",
+    "link": "graphics/pie/donut.html",
+    "image": "images/piechart.png"
   },
   {
     "name": "Bar Chart",
+    "desc": "A bar chart",
     "link": "graphics/barchart/bar.html",
-    "data": [
-      {
-        "name": "Data",
-        "link": "graphics/barchart/data.tsv"
-      }
-    ]
+    "image": "images/barchart.png"
   },
   {
     "name": "SVG Shapes",
@@ -131,7 +91,8 @@
   },
   {
     "name": "Actors",
-    "link": "graphics/actors/actors.html"
+    "desc": "A squiggly line chart",
+    "link": "graphics/actors/actors.html",
+    "image": "images/actorchart.png"
   }
-
 ]
