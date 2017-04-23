@@ -1,11 +1,5 @@
 ﻿[
   {
-    "name": "Notes",
-    "desc": "My Notes", 
-    "link": "text.html",
-    "image": "images/text.jpg"
-  },
-  {
     "name": "Text Generator",
     "desc": "This program generates text based on statistics", 
     "link": "http://text-generator-dev.us-west-2.elasticbeanstalk.com",
