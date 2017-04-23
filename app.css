@@ -5,14 +5,6 @@
 	padding-bottom: 10px;
 }
 
-.jumbotron p a:link,
-.jumbotron p a:active, 
-.jumbotron p a:visited,
-.jumbotron p a:hover { 
-  color: white; 
-  text-decoration: none; 
-}
-
 a:link,
 a:active, 
 a:visited,
