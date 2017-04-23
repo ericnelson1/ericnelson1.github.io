@@ -5,6 +5,10 @@
 	padding-bottom: 10px;
 }
 
+.jumbotron p {
+  margin-top: 18px
+}
+
 a:link,
 a:active, 
 a:visited,
