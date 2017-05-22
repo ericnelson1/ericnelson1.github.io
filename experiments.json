@@ -100,7 +100,7 @@
     "desc": "A squiggly line chart",
     "link": "graphics/actors/actors.html",
     "image": "images/actorchart.png"
-  }
+  },
   {
     "name": "Geolocation",
     "desc": "Geolocation",
