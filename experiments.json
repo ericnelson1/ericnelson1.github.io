@@ -106,5 +106,11 @@
     "desc": "Geolocation",
     "link": "html-css/public/geolocation.html",
     "image": "images/globe.jpg"
+  },
+  {
+    "name": "Heroku App",
+    "desc": "App hosted on Heroku",
+    "link": "https://salty-tor-18290.herokuapp.com/",
+    "image": "images/heroku.jpg"
   }
 ]
