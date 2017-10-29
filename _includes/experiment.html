@@ -1,0 +1,44 @@
+<style>
+.en-experiment {
+  background-color: #eee;  
+  color: #555 !important;
+  margin: 20px 0;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #555;
+}
+.en-experiment:hover {
+  box-shadow: 2px 2px 2px #555;
+}
+.en-experiment img { 
+  border: 1px solid #555;
+  float: left;
+}
+.en-experiment div {
+  margin-left: 100px;
+}
+</style>
+
+{% for experiment in include.experimentlist %}
+
+<div class="en-experiment" >
+
+  {% assign starts_with = experiment.link | slice:0,4  %}
+  {% if starts_with == 'http' %}
+    <a href="{{ experiment.link }}" target="_blank">
+  {% else %}
+    <a href="{{ site.github_url }}/{{ experiment.link }}" target="_blank">
+  {% endif %}
+
+    <img src="{{ site.github_url }}/experiments/{{ experiment.image }}"
+       width="80" height="80">
+    <div>
+    <h3>{{ experiment.name }}</h3>
+    <p>{{ experiment.desc }}</p>
+    </div>
+  </a>
+</div>
+
+{% endfor %}
+
+

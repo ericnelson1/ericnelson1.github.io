@@ -3,15 +3,48 @@
 
 @import "minima";
 
+body {
+  color: #555;
+}
+h1 {
+  color: #337ab7;
+}
+
 .site-header {
+  border-top: 0;
+  border-bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
   background-color: #337ab7;
 }
+
+.page-content {
+  padding-top:80px;
+}
+
 .site-nav .page-link {
   color: white;
 }
-.site-title, .site-title:visited {
+.site-title, 
+.site-title:visited {
   color: white;
-  font-weight: bold;
+  font-family: cursive;
 }
 
+.highlighter-rouge .highlight,
+code,
+pre {
+  background: #fdfdfd;
+  border: 0;
+  padding: 0;
+}
   
+a,
+a:active, 
+a:hover, 
+a:focus, 
+a:visited {
+  text-decoration: none; 
+  color: #555; 
+}

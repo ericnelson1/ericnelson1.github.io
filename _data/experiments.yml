@@ -1,0 +1,95 @@
+- name: Text Generator
+  desc: This program generates text based on statistics 
+  link: http://www.google.com
+  image: images/text.jpg
+  
+- name: Tree Patterns
+  desc: Rule based tree patterns
+  link: d3/treepatterns/tree.html
+  image: images/treepatterns.png
+  
+- name: Node Chat
+  desc: Node JS chat app using socket IO
+  link: http://www.google.com
+  image: images/chat.png
+  
+- name: Country Population Bubble Chart
+  desc: This chart shows countries by population size 
+  link: d3/countrypopulation/countrypopulation.html
+  image: images/countrypopulation.png
+  
+- name: Country Land Bubble Chart
+  desc: This chart shows countries by land size 
+  link: d3/countryland/countryland.html
+  image: images/countryland.png
+  
+- name: State Population Bar Chart
+  desc: This shows state population in a bar chart 
+  link: d3/statepopulation/statepopulationbar.html
+  image: images/statepopulationbar.png
+  
+- name: State Population Bubble Chart
+  desc: This shows state population in a bubble chart 
+  link: d3/statepopulation/statepopulationbubble.html
+  image: images/statepopulationbubble.png
+  
+- name: Knockout Circles
+  desc: Cheesy floating circles in old school knockout
+  link: d3/html/circles.html
+  image: images/circles.png
+  
+- name: Bezier Curve
+  desc: Another cheesy knockout experiment
+  link: d3/html/bezier.html
+  image: images/bezier.png
+  
+- name: Force Graph
+  desc: A force graph
+  link: d3/forcegraph/force.html
+  image: images/force.png
+  
+- name: Tree Map
+  desc: A tree map
+  link: d3/treemap/treemap.html
+  image: images/treemap.png
+  
+- name: Area Chart
+  desc: An area chart
+  link: d3/areachart/areachart.html
+  image: images/areachart.png
+  
+- name: Scatter Plot
+  desc: A scatter plot
+  link: d3/scatterplot/scatter.html
+  image: images/scatter.png
+  
+- name: Pie Chart
+  desc: A pie chart or two
+  link: d3/pie/donut.html
+  image: images/piechart.png
+  
+- name: Bar Chart
+  desc: A bar chart
+  link: d3/barchart/bar.html
+  image: images/barchart.png
+  
+- name: SVG Shapes
+  desc: Basic SVG shapes
+  link: d3/svg/basic.html
+  image: images/svgshapes.png
+  
+- name: Actors
+  desc: A squiggly line chart
+  link: d3/actors/actors.html
+  image: images/actorchart.png
+  
+- name: Geolocation
+  desc: Geolocation
+  link: html-css/public/geolocation.html
+  image: images/globe.jpg
+  
+- name: Heroku App
+  desc: App hosted on Heroku
+  link: https://salty-tor-18290.herokuapp.com/
+  image: images/heroku.jpg
+  

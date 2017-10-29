@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="app">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eric Nelson</title>
+---
+layout: subpage
+title: experiments
+---
 
-  <link rel="shortcut icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="app.css">
 
-</head>
-<body ng-controller="MainController as main">
-  <!--[if lt IE 10]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
-  <div class="jumbotron">
-    <div class="container-fluid">
-      <h2>Eric Nelson</h2>
-    </div>
-  </div>
+<div ng-app="app" ng-controller="MainController as main">
   <div class="container-fluid ng-cloak" ng-cloak>
     <div class="row">
       <div ng-repeat="column in main.columns">
@@ -37,9 +26,8 @@
       </div>
     </div>
   </div>
+</div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
-  <script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+<script src="app.js"></script>
 
-</body>
-</html>
