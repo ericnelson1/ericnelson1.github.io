@@ -9,3 +9,24 @@ permalink: /links/
 Here is a sentence on the links page.
 Have a nice day.
 
+## Social
+[Facebook](http://www.facebook.com)
+[Twitter](http://www.twitter.com)
+
+## News
+[New Yorker](http://www.newyorker.com)
+
+## Technology
+[Safari Books](http://www.safaribooksonline.com)
+[Medium](http://medium.com)
+[Pinboard](http://pinboard.com)
+[Letterboxd](http://letterboxd.com)
+[Github](http://www.github.com)
+
+## Video
+[YouTube](http://youtube.com)
+[MediciTV](http://www.medici.tv)
+[FilmStruck](http://www.filmstruck.com)
+
+## Music
+[FlickR](http://www.flickr.com)
