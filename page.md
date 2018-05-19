@@ -1,5 +1,11 @@
 ---
-layout: home
+layout: page
+title: Links
+permalink: /links/
 ---
 
-# Hello World!!!
+# Links Title
+
+Here is a sentence on the links page.
+Have a nice day.
+
