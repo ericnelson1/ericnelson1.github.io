@@ -32,5 +32,6 @@ Have a nice day.
 [FlickR](http://www.flickr.com)
 
 ## Something
-<a href="http://www.safaribooksonline.com"><img src="/images/oreilly.jpeg"></a>
+<a href="http://www.safaribooksonline.com"><img src="/images/oreilly.jpeg" height="50" width="50"></a>
+<a href="http://www.filmstruck.com"><img src="/images/filmstruck.png" height="50" width="150"></a>
 
