@@ -30,3 +30,7 @@ Have a nice day.
 
 ## Music
 [FlickR](http://www.flickr.com)
+
+## Something
+<a href="http://www.safaribooksonline.com"><img src="images/oreilly.jpeg"></a>
+
